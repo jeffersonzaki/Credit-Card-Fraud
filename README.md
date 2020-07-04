@@ -1,4 +1,4 @@
-# Credit-Card-Fraud
+# Credit Card Fraud
 The goal is to reduce credit card fraud to help banks and credit card compnaies make smarter decisions when choosing to give someone a loan and a credit card limit.
 This project was created from unstructured credit card data to see if it's possible to detect credit card fraud before it happens.
 
