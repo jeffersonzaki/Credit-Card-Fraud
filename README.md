@@ -9,6 +9,7 @@ This project was created from unstructured credit card data to see if it's possi
 ## Content Summary
 - [gitattributes](https://github.com/jeffersonzaki/Credit-Card-Fraud/blob/master/.gitattributes) - Using Git Large Files to store the csv dataset
 - [gitignore](https://github.com/jeffersonzaki/Credit-Card-Fraud/blob/master/.gitignore) - Ignores certain files
+- [Dockerfile](https://github.com/jeffersonzaki/Credit-Card-Fraud/blob/master/Dockerfile) - Contains source code that allows somone to run this notebook in Docker. This was created to use keras on Docker's virtual machine.
 - [Exploratory Data Analysis](https://github.com/jeffersonzaki/Credit-Card-Fraud/blob/master/EDA.ipynb) - Looking at the data in detail
 - [Modeling](https://github.com/jeffersonzaki/Credit-Card-Fraud/blob/master/modeling.ipynb) - Models that were used to get the best accuracy score
 - [Python Scripts](https://github.com/jeffersonzaki/Credit-Card-Fraud/blob/master/scripts.py) - Holds code that implements DRY on our data.
