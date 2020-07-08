@@ -7,11 +7,11 @@ RUN pip3 install tensorflow && \
     pip3 install keras && \
     pip3 install imblearn
 
-WORKDIR /Users/zakijefferson/code/Credit-Card-Fra
+WORKDIR /Users/zakijefferson/code/Credit-Card-Fraud
 COPY . .
 
 RUN pip3 install jupyter
 
 WORKDIR /Users/zakijefferson/code/Credit-Card-Fraud
 
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"
