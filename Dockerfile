@@ -7,7 +7,7 @@ RUN pip3 install tensorflow && \
     pip3 install keras && \
     pip3 install imblearn
 
-WORKDIR /Users/zakijefferson/code/Credit-Card-Fraud
+WORKDIR /Users/zakijefferson/code/Credit-Card-Fra
 COPY . .
 
 RUN pip3 install jupyter
