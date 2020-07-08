@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:lates
 RUN apt-get update && apt-get -y update
 RUN apt-get install -y build-essential python3.6 python3-pip python3-dev
 
@@ -14,4 +14,4 @@ RUN pip3 install jupyter
 
 WORKDIR /Users/zakijefferson/code/Credit-Card-Fraud
 
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
